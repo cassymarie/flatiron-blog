@@ -15,3 +15,5 @@ As a sagittarius, I do not know the meaning of relax.  I enjoy being creative, g
 ## Flatiron Blog Posts
 
 In 2020, I've decided to take back my life and attend a coding bootcamp.  I've previously attended coding workshops in Seattle until CoVID hit.  Once that happened, life threw us another curveball with my husbands job moving us to the Boulder, CO area this summer.  After getting settled in, it was time to take my life back.  I decided to join Flatiron School to continue my software developer journey.  Below you will find links to blog posts that will capture my journey as a full-time student at Flatiron School.
+
+[Why did you decide to study Software Engineering?](blogs/why_study_Software_Engineering.md)
