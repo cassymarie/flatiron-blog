@@ -1,8 +1,10 @@
 # About Me
 
 [Github Profile](https://github.com/cassymarie) | Cassandra "Cassy" Ortiz
------------------------ | -------------------
-![Profilepic](https://avatars0.githubusercontent.com/u/58947259?s=400&u=203816aef9d5d389a9b750a12cf05dec09b24fa8&v=4) | Happily married with 2 kids (daughter-14 & son-13).  Recently moved to Boulder, CO in July 2020 from Seatte, WA. Worked as Project Coordination Manager at a manufacturing company based out of Atlanta, GA.  I now do consulting work for them since I moved from Georgia in 2017.  
+
+![Profilepic](https://avatars0.githubusercontent.com/u/58947259?s=400&u=203816aef9d5d389a9b750a12cf05dec09b24fa8&v=4) 
+
+Happily married with 2 kids (daughter-14 & son-13).  Recently moved to Boulder, CO in July 2020 from Seatte, WA. Worked as Project Coordination Manager at a manufacturing company based out of Atlanta, GA.  I now do consulting work for them since I moved from Georgia in 2017.  
 
 As a sagittarius, I do not know the meaning of relax.  I enjoy being creative, getting into lots of different crafts.  And if you give me any chance to travel I will take it!  My husband & I have visited 21/30 MLB stadiums (including some older stadiums as well).
 
