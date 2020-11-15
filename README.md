@@ -21,5 +21,5 @@ I decided to join Flatiron School to continue my software developer journey.  Be
 
 | Blog Post | Module |
 | --------- | ------ |
-| [Why did you decide to study Software Engineering?](blogs/why_study_Software_Engineering.md) | First Mile |
-| [CLI Project](blogs/cli_project.md) | Phase 1 |
+| [Why did you decide to study Software Engineering?](/flatiron-blog/blogs/why_study_Software_Engineering.md) | First Mile |
+| [CLI Project](/flatiron-blog/blogs/cli_project.md) | Phase 1 |
