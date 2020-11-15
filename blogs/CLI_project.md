@@ -2,7 +2,7 @@
 
 <img src=".img/../../img/fbi_header.png">
 
-## What you did for your project...
+## What you did for your project
 
 Since I find myself watching all these true crime shows on Netflix or listening to TrueCrime podcasts, I thought I would dive into the realm of crime.  I found that the FBI most wanted website had a free api, so why not!?! I parsed the data into (2) classes: `Person` and `CaseFile`.  I extracted all the information on the case categories that were setup and then created navigation menus for the user to go through and view the information for each individual.
 
