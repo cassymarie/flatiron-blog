@@ -18,8 +18,8 @@ I've previously attended coding workshops in Seattle until CoVID hit.  Once that
 
 I decided to join Flatiron School to continue my software developer journey.  Below you will find links to blog posts that will capture my journey as a full-time student at Flatiron School.
 
-
 | Blog Post | Module |
 | --------- | ------ |
 | [Why did you decide to study Software Engineering?](blogs/why_study_Software_Engineering.md) | First Mile |
 | [CLI Project](blogs/cli_project.md) | Phase 1 |
+| [Sinatra Project](blogs/sinatra_project.md) | Phase 2 |
