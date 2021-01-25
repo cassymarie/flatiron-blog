@@ -56,9 +56,40 @@ before_action :current_jobsite
     end
 ```
 
-I did utitlize a few other helpers and got lost in creating some crazy view helper that were pretty much one Gigantic string! 
+I did utitlize a few other helpers and got lost in creating some crazy view helper that were pretty much one Gigantic string! I created a helper to generate a table for my jobsite jobs.  Since I was going to utilize this table in a few locations, I wanted to take in a few paramaters of what I wanted to show in my table and created the following helper.
 
-More to come later...
+```Ruby
+def render_jobs_table(customers: true, areas: true)
+    return unless @jobsite.jobs.size > 0 
+    @jobsite.site_areas.nil? ? areas = false : areas
 
+    render_table = html_escape('')
+    row_data = html_escape('')
+    tbody_data = html_escape('')
 
+    hkey = ['Job#', 'Job Name']
+    hkey << 'Customers' unless !customers
+    @jobsite.site_areas.each {|a| hkey << a.code } unless !areas 
+    hkey.each { |key|row_data << content_tag(:th, key.to_s) }
+    thead = content_tag(:thead, content_tag(:tr, row_data))
+
+    render_table << thead
+
+        @jobsite.jobs.each { | job | row_data = html_escape('')
+
+            row_data << content_tag(:td, job.job_number) 
+            row_data << content_tag(:td, job.name)
+            row_data << content_tag(:td, job.customer) unless !customers
+            @jobsite.site_areas.each {|a| row_data << content_tag(:td, job.areas.include?(a) ? 'X' : '') } unless !areas 
+
+            tbody_data << content_tag(:tr, row_data)
+        }
+
+    tbody = content_tag(:tbody, tbody_data)
+    render_table <<  tbody
+    content_tag(:table, render_table, class: "table")
+end
+```
+
+This worked really well and I was impressed with myself that I got it to work.  However, I ended up deciding to create a partial that rendered a table that worked for both my Jobs & Employees, and would react based on the collection passed through, as well as the action route that was calling it.  With spending the time on this rails viewhelper, only made me want to jump right into Javascript. (*guess you'll see my progressive magic on the Javascript Interview*)
 
