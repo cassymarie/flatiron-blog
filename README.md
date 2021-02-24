@@ -24,4 +24,4 @@ I decided to join Flatiron School to continue my software developer journey.  Be
 | [CLI Project](blogs/cli_project.md) | Phase 1 |
 | [Sinatra Project](blogs/sinatra_project.md) | Phase 2 |
 | [Rails Project](blogs/rails_project.md) | Phase 3 |
-| [Rails Project](blogs/js_project.md) | Phase 4 |
+| [Javascript Project](blogs/js_project.md) | Phase 4 |
