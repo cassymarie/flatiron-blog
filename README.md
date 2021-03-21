@@ -25,3 +25,5 @@ I decided to join Flatiron School to continue my software developer journey.  Be
 | [Sinatra Project](blogs/sinatra_project.md) | Phase 2 |
 | [Rails Project](blogs/rails_project.md) | Phase 3 |
 | [Javascript Project](blogs/js_project.md) | Phase 4 |
+| [Pain Points](blogs/pain_points.md) | Phase 5 |
+| [Final Project](blogs/final_flatiron_blog.md) | Final |
